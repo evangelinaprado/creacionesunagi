@@ -1,0 +1,101 @@
+body {
+  background-image: url("multimedia/fondo.png"); }
+  body header {
+    background-color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 3px #40916c; }
+    body header .header__logo {
+      width: 300px;
+      height: 90px;
+      margin-left: 20px; }
+    body header .header__nav a {
+      font-size: 25px;
+      text-decoration: none;
+      color: #52b788;
+      padding: 10px;
+      text-align: center;
+      flex-grow: 1; }
+    body header a:hover {
+      color: #95d5b2; }
+  body .carousel {
+    padding: 60px;
+    margin: 20px;
+    width: 1200px;
+    height: 650px;
+    display: flex;
+    flex-basis: 100%; }
+  body .contacto {
+    background-color: white;
+    width: 100%;
+    margin-right: 50px;
+    padding: 70px;
+    display: flex;
+    justify-content: center; }
+    body .contacto a {
+      text-align: center;
+      text-decoration: none;
+      color: #52b788;
+      flex: 1 1 100%;
+      font-size: 80px; }
+    body .contacto a:hover {
+      color: #95d5b2;
+      text-decoration: none; }
+  body footer {
+    height: 100px;
+    background-color: #95d5b2;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    flex-basis: 100%; }
+    body footer .footer__leyenda p {
+      font-size: 25px;
+      margin-left: 40px; }
+    body footer .footer__redes a img {
+      width: 40px;
+      margin-right: 30px; }
+  body form {
+    width: 100%;
+    padding: 20px;
+    font-size: 15px;
+    color: #539466;
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+    body form fieldset {
+      border-style: hidden;
+      background-color: white; }
+      body form fieldset legend {
+        text-align: center;
+        font-size: 30px; }
+  body .div__galeria {
+    display: flex;
+    justify-content: center; }
+    body .div__galeria div {
+      padding: 15px; }
+      body .div__galeria div img {
+        width: 300px;
+        height: 300px; }
+  body .section__preguntasFrecuentes {
+    margin-left: 80px;
+    padding: 10px;
+    width: 92%; }
+    body .section__preguntasFrecuentes h1 {
+      font-size: 60px;
+      text-align: center;
+      letter-spacing: 8px; }
+    body .section__preguntasFrecuentes ul li {
+      font-size: 40px; }
+  body .section__quienesSomos {
+    margin: 20px;
+    padding: 10px; }
+    body .section__quienesSomos h1 {
+      text-align: center;
+      font-size: 60px;
+      letter-spacing: 8px; }
+    body .section__quienesSomos p {
+      margin: 20px;
+      padding: 10px;
+      font-size: 30px; }
